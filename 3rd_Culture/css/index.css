@@ -1,0 +1,128 @@
+#company-logo {
+    margin: 10px;
+}
+
+.navbar-default {
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+#home-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#home {
+    overflow: hidden;
+}
+
+#welcome-msg {
+    position:absolute;
+    bottom: 30%;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 25px;
+    padding: 20px;
+    
+    margin-left: 20px;
+    margin-right: 20px;
+    left: 0;
+    right: 0;
+}
+
+#eca {padding-bottom: 100px;}
+
+h1 {
+    text-align: center;
+    padding: 30px 0px 10px 0px;
+}
+
+p {
+    padding: 10px 20px;
+}
+
+footer {
+    display: table;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+    background-color: #D4D4D4;
+    width: 100%;
+}
+
+.div-img {
+    padding: 10px 0px 20px 0px;
+}
+
+.input-group {
+    padding: 5px 50px;
+}
+
+#textview-control {
+    height: 100px;
+}
+
+#textview-control-span {
+    padding: 3px 4px;
+    line-height: 2;
+}
+
+#email-span {
+    padding: 6px 15.5px;
+}
+
+#name-span {
+    padding: 6px 14px;
+    margin-bottom: 2px;
+}
+
+.submit-btn-div {
+    padding: 25px 50px;
+}
+
+.submit-btn {
+    width: 100%;
+}
+
+#bot-page-down-arr, #about {
+    position: relative;
+    top: -90px;
+}
+
+#contact {
+    position: relative;
+    top: -110px;
+}
+
+#bot-page-up-arr, #bot-page-down-arr {
+    margin: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (min-width: 768px) {
+
+    
+    
+}
+
+@media (min-width: 992px) {
+    .row {
+        margin-left: auto;
+        margin-right: auto;
+        width: 992px;
+    }
+    
+    #welcome-msg {
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+}
+
+@media (min-width: 1200px) {
+    #welcome-msg {
+        margin-left: 400px;
+        margin-right: 400px;
+    }
+}

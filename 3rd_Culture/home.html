@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>3rd Culture</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">  
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+<script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          appId      : '415482545258810',
+          xfbml      : true,
+          version    : 'v2.0'
+        });
+      };
+
+      (function(d, s, id){
+         var js, fjs = d.getElementsByTagName(s)[0];
+         if (d.getElementById(id)) {return;}
+         js = d.createElement(s); js.id = id;
+         js.src = "https://connect.facebook.net/en_US/sdk.js";
+         fjs.parentNode.insertBefore(js, fjs);
+       }(document, 'script', 'facebook-jssdk'));
+</script>
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button id="navbarBtn" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menuBar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="#"><img id="company-logo" src="img/3rd_Culture_logo.png" width="131px" height="30px"></a>
+            </div><!-- /navbar header -->
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="menuBar">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Courses</a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a id="homeTrainingId" href="courses.html#training_courses">Training Courses</a></li>
+                            <li><a id="homeECAId" href="courses.html#eca">Extra Curricular Activities</a></li>
+                            <li><a id="homeEduEventsId" href="courses.html#edu_events_&_satff_dev">Educatinal Events & Staff Development</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Materials</span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a id="" href="example.html#example">Assessments</a></li>
+                            <li><a id="" href="example.html#example">Program Development</a></li>
+                            <li><a id="" href="example.html#example">Personalized Programs</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div><!-- /navbar header -->
+        </div><!-- /container fluid -->
+    </div><!-- /navbar -->
+    <div id="home">
+        <div>
+            <img id="home-image" src="img/cute_kids_cute_play-wide.jpg">
+            <div id="welcome-msg">
+                    <h2>Welcome!</h2>
+                    <h3>We have an array of tools at your disposal</h3>
+                    <img height="50px" width="50">
+                    <img height="50px" width="50">
+            </div>
+            <img id="bot-page-down-arr" src="img/circle_arrow_down.png" height="50px" width="50px">
+        </div>
+    </div>
+    <div id="about" class="row">
+        <h1>About</h1>
+        <div class="div-img" align="center"><img src="img/home-logo-png.png" class="logo" height="150px" width="150px"></div>
+        <div class="col-sm-6"><p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris adipiscing eu orci nec condimentum. Donec ut            urna ac est lacinia luctus. Integer placerat, mi ut ultricies vehicula, mi purus tincidunt tellus, in                    vulputate est odio vitae mauris. Morbi non porta arcu. Donec id aliquet libero. Etiam interdum dui lacus, at            ultricies felis mattis ut. Suspendisse sit amet consequat lorem, non luctus ipsum. Sed sodales suscipit dolor            at commodo. Integer id eros felis.
+        </p></div>
+        <div class="col-sm-6"><p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris adipiscing eu orci nec condimentum. Donec ut            urna ac est lacinia luctus. Integer placerat, mi ut ultricies vehicula, mi purus tincidunt tellus, in                    vulputate est odio vitae mauris. Morbi non porta arcu. Donec id aliquet libero. Etiam interdum dui lacus, at            ultricies felis mattis ut. Suspendisse sit amet consequat lorem, non luctus ipsum. Sed sodales suscipit dolor            at commodo. Integer id eros felis.
+        </p></div>
+    </div><!-- /content -->
+    <div id="contact" class="row">
+        <h1>Contact</h1>
+        <div class="col-sm-6">
+            <div class="div-img" align="center">
+                <img src="img/4cbMjjgni.png" class="logo" height="150px" width="150px">
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <form action="MAILTO:ryanstroud75@gmail.com" method="post" enctype="text/plain">
+                <div class="input-group">
+                    <span id="name-span" class="input-group-addon">Name</span>
+                    <input value="" type="text" class="form-control">
+                </div>
+                <div class="input-group">
+                    <span id="email-span" class="input-group-addon">Email</span>
+                    <input value="" type="text" class="form-control" placeholder="me@example.com">
+                </div>                
+                <div class="input-group">
+                    <span id="textview-control-span" class="input-group-addon">Message</span>
+                    <input id="textview-control" value="" type="textview" class="form-control">
+                </div>
+                <div class="submit-btn-div">
+                    <button type="button" class="btn btn-default btn-lg submit-btn">
+                        <span>Submit</span>
+                        <span class="glyphicon glyphicon-send"></span>
+                    </button>
+                </div>
+            </form>
+        </div>
+        <div class="icon-holder" align="center">
+            <a class="fb-share-button" data-href="https://developers.facebook.com/docs/plugins/">
+                <img class="icon" src="img/simple_social_icon_set/PNG/64x64/facebook.png">
+            </a>  
+            <a><img class="icon" src="img/simple_social_icon_set/PNG/64x64/twitter.png"></a>
+            <a href="#" id="shareThis"><img class="icon" src="img/simple_social_icon_set/PNG/64x64/sharethis.png"></a>  
+        </div>
+        <div>
+            <img id="bot-page-up-arr" src="img/circle_arrow_up.png" height="50px" width="50px">
+        </div>
+    </div><!-- /content -->
+    <div id="fb-root"></div>
+    <footer>
+        <a><p>中文</p></a>
+        <p>3rd Culture 2014 ©</p>
+    </footer>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=415482545258810&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script src="lib/animatescroll.js-master/animatescroll.min.js"></script>
+<script src="js/index.js"></script>
+    
+</body>
+</html>
