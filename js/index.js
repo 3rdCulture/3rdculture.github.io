@@ -19,7 +19,11 @@ function manageImage()
         img.attr('height', 'auto');   
     }
     
-	$("#sidebar-fixed").css("top", $(window).height()/3);
+    //manage height of sidebar on mobile devices
+    if($(window).width() < 768){
+    	console.log("hello");
+    	$("#sidebar-fixed").css("top", $(window).height()/4);
+    }
 }
 
 $("#bot-page-down-arr").click(function(){$("#about").animatescroll();});

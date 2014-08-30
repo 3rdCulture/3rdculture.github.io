@@ -6,13 +6,12 @@
 
 #sidebar-fixed {
 	position: fixed;
-	top: 300px;
-	right: 10px;
+	top: 100px;
+	right: 0px;
 }
 
 .icon-side {
 	display: block;
-	padding-bottom: 5px;
 }
 
 /* dunno what this does
