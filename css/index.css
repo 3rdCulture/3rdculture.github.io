@@ -7,7 +7,7 @@
 #sidebar-fixed {
 	position: fixed;
 	top: 300px;
-	left: 10px;
+	right: 10px;
 }
 
 .icon-side {

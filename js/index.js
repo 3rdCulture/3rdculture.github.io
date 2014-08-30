@@ -4,6 +4,9 @@ var img = $('#home-image');
 
 manageImage();
 $(window).resize(manageImage);
+$(window).click(function(){
+	$("#sidebar-fixed").toggle(1000);
+});
 
 function manageImage()
 {     
@@ -15,6 +18,8 @@ function manageImage()
         img.attr('width', $( window ).width());
         img.attr('height', 'auto');   
     }
+    
+	$("#sidebar-fixed").css("top", $(window).height()/3);
 }
 
 $("#bot-page-down-arr").click(function(){$("#about").animatescroll();});
