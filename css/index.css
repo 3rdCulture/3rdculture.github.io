@@ -48,24 +48,13 @@ h1 {
     padding: 30px 0px 10px 0px;
 }
 
-p {
-    padding: 10px 20px;
-}
-
-footer {
-    display: table;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    
-    background-color: #D4D4D4;
-    width: 100%;
-}
+p {padding: 10px 20px;}
 
 .div-img {
     padding: 10px 0px 20px 0px;
 }
 
+/* 
 .input-group {
     padding: 5px 50px;
 }
@@ -96,14 +85,15 @@ footer {
     width: 100%;
 }
 
-#bot-page-down-arr, #about {
-    position: relative;
-    top: -90px;
-}
-
 #contact {
     position: relative;
     top: -110px;
+}
+ */
+
+#bot-page-down-arr, #about {
+    position: relative;
+    top: -90px;
 }
 
 #bot-page-up-arr, #bot-page-down-arr {
@@ -111,6 +101,17 @@ footer {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+/*----------FOOTER----------*/
+footer {
+    display: table;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+    background-color: #D4D4D4;
+    width: 100%;
 }
 
 @media (min-width: 768px) {
